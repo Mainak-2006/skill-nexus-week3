@@ -1,0 +1,30 @@
+IRIS FLOWER CLUSTERING - MODEL CARD
+========================================
+Algorithm          : K-Means (k-means++ init)
+Clusters (K)       : 3
+Features           : sepal_length, sepal_width, petal_length, petal_width
+Scaling            : StandardScaler (fit on all 150 flowers)
+Random state       : 42
+n_init             : 10
+
+QUALITY
+Silhouette         : 0.4599
+Adjusted Rand Index: 0.6201
+Normalised MI      : 0.6595
+Purity             : 0.8333
+Accuracy (mapped)  : 0.8333
+
+CLUSTER -> SPECIES (majority vote)
+  Cluster 0: versicolor
+  Cluster 1: setosa
+  Cluster 2: virginica
+
+ARTEFACTS
+  kmeans_model.joblib : scaler + model + metadata bundle
+  kmeans_model.pkl    : identical bundle, pickle format
+  clustered_iris.csv  : every flower with its cluster id
+  cluster_profiles.csv: mean measurements per cluster
+  metrics.json        : full evaluation numbers
+
+NOTE: K-Means is unsupervised. Species labels were used only to
+evaluate the clusters, never to fit the model.

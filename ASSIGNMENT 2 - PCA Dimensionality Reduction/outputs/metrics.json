@@ -1,0 +1,76 @@
+{
+  "variance_target": 0.95,
+  "n_original_features": 4,
+  "n_components_chosen": 2,
+  "explained_variance_ratio": [
+    0.7296244541329993,
+    0.22850761786701704,
+    0.036689218892828765,
+    0.005178709107154917
+  ],
+  "cumulative_explained_variance": [
+    0.7296244541329993,
+    0.9581320720000163,
+    0.994821290892845,
+    0.9999999999999999
+  ],
+  "variance_retained": 0.9581320720000163,
+  "reconstruction_mse_scaled": 0.04186792799998358,
+  "reconstruction_error_by_components": [
+    {
+      "n_components": 1,
+      "reconstruction_mse": 0.27037554586700097,
+      "explained_variance": 0.7296244541329993
+    },
+    {
+      "n_components": 2,
+      "reconstruction_mse": 0.04186792799998358,
+      "explained_variance": 0.9581320720000163
+    },
+    {
+      "n_components": 3,
+      "reconstruction_mse": 0.005178709107154798,
+      "explained_variance": 0.994821290892845
+    },
+    {
+      "n_components": 4,
+      "reconstruction_mse": 1.686822205003341e-30,
+      "explained_variance": 0.9999999999999999
+    }
+  ],
+  "kmeans_on_full_features": {
+    "silhouette": 0.45994823920518646,
+    "adjusted_rand_index_vs_species": 0.6201351808870379
+  },
+  "kmeans_on_pca": {
+    "silhouette": 0.5091683341538229,
+    "adjusted_rand_index_vs_species": 0.6201351808870379,
+    "adjusted_rand_index_vs_full_kmeans": 1.0
+  },
+  "loadings": {
+    "PC1": {
+      "sepal_length": 0.5210659146701196,
+      "sepal_width": -0.2693474425059422,
+      "petal_length": 0.5804130957962941,
+      "petal_width": 0.5648565357793608
+    },
+    "PC2": {
+      "sepal_length": 0.3774176155645678,
+      "sepal_width": 0.9232956595407142,
+      "petal_length": 0.024491609085585453,
+      "petal_width": 0.06694198696805786
+    },
+    "PC3": {
+      "sepal_length": 0.7195663527008166,
+      "sepal_width": -0.24438177951440027,
+      "petal_length": -0.14212636933390418,
+      "petal_width": -0.6342727371109225
+    },
+    "PC4": {
+      "sepal_length": -0.2612862799524521,
+      "sepal_width": 0.12350961958551938,
+      "petal_length": 0.8014492463359879,
+      "petal_width": -0.5235971345661913
+    }
+  }
+}

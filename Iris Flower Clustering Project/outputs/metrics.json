@@ -1,0 +1,125 @@
+{
+  "dataset": "Iris (UCI / Kaggle)",
+  "n_samples": 150,
+  "n_features": 4,
+  "features": [
+    "sepal_length",
+    "sepal_width",
+    "petal_length",
+    "petal_width"
+  ],
+  "chosen_k": 3,
+  "best_silhouette_k": 2,
+  "random_state": 42,
+  "n_init": 10,
+  "inertia": 139.82049635974974,
+  "silhouette_score": 0.45994823920518646,
+  "calinski_harabasz_score": 241.90440170183172,
+  "davies_bouldin_score": 0.8335949464754334,
+  "adjusted_rand_index": 0.6201351808870379,
+  "adjusted_mutual_info": 0.6552228479234861,
+  "normalized_mutual_info": 0.659486892724918,
+  "homogeneity": 0.659126501804901,
+  "completeness": 0.659847677962776,
+  "v_measure": 0.659486892724918,
+  "purity": 0.8333333333333334,
+  "accuracy_after_mapping": 0.8333333333333334,
+  "cluster_to_species": {
+    "1": "setosa",
+    "0": "versicolor",
+    "2": "virginica"
+  },
+  "cluster_sizes": {
+    "0": 53,
+    "1": 50,
+    "2": 47
+  },
+  "centroids_cm": {
+    "0": {
+      "sepal_length": 5.80188679245283,
+      "sepal_width": 2.6735849056603773,
+      "petal_length": 4.369811320754717,
+      "petal_width": 1.4132075471698113
+    },
+    "1": {
+      "sepal_length": 5.006,
+      "sepal_width": 3.428,
+      "petal_length": 1.461999999999998,
+      "petal_width": 0.24600000000000055
+    },
+    "2": {
+      "sepal_length": 6.780851063829788,
+      "sepal_width": 3.095744680851064,
+      "petal_length": 5.510638297872341,
+      "petal_width": 1.9723404255319146
+    }
+  },
+  "elbow_table": [
+    {
+      "k": 1,
+      "inertia": 600.0,
+      "silhouette": null
+    },
+    {
+      "k": 2,
+      "inertia": 222.36170496502302,
+      "silhouette": 0.5817500491982808
+    },
+    {
+      "k": 3,
+      "inertia": 139.82049635974974,
+      "silhouette": 0.45994823920518646
+    },
+    {
+      "k": 4,
+      "inertia": 114.09254690403084,
+      "silhouette": 0.38694104154427816
+    },
+    {
+      "k": 5,
+      "inertia": 90.92751382392048,
+      "silhouette": 0.3459012795948778
+    },
+    {
+      "k": 6,
+      "inertia": 81.54439095511779,
+      "silhouette": 0.3170794019356902
+    },
+    {
+      "k": 7,
+      "inertia": 72.63114382667186,
+      "silhouette": 0.3201967939183684
+    },
+    {
+      "k": 8,
+      "inertia": 62.54060569578121,
+      "silhouette": 0.3386917389489723
+    },
+    {
+      "k": 9,
+      "inertia": 55.119492805290584,
+      "silhouette": 0.3423598384813203
+    },
+    {
+      "k": 10,
+      "inertia": 47.39103517634708,
+      "silhouette": 0.35179267606402886
+    }
+  ],
+  "persistence": {
+    "joblib_path": "kmeans_model.joblib",
+    "pickle_path": "kmeans_model.pkl",
+    "joblib_reload_predictions_match": true,
+    "pickle_reload_predictions_match": true,
+    "new_flower": {
+      "measurements": [
+        5.0,
+        3.4,
+        1.5,
+        0.2
+      ],
+      "cluster": 1,
+      "mapped_species": "setosa"
+    }
+  }
+}

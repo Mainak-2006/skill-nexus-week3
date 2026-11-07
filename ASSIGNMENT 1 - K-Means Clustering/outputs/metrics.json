@@ -1,0 +1,92 @@
+{
+  "chosen_k": 3,
+  "random_state": 42,
+  "n_init": 10,
+  "n_samples": 150,
+  "n_features": 4,
+  "inertia": 139.82049635974974,
+  "silhouette_score": 0.45994823920518646,
+  "calinski_harabasz_score": 241.90440170183172,
+  "davies_bouldin_score": 0.8335949464754334,
+  "adjusted_rand_index": 0.6201351808870379,
+  "normalized_mutual_info": 0.659486892724918,
+  "best_silhouette_k": 2,
+  "accuracy_after_majority_mapping": 0.8333333333333334,
+  "cluster_to_species_mapping": {
+    "1": "setosa",
+    "0": "versicolor",
+    "2": "virginica"
+  },
+  "elbow_table": [
+    {
+      "k": 1,
+      "inertia": 600.0,
+      "silhouette": null,
+      "calinski_harabasz": null,
+      "davies_bouldin": null
+    },
+    {
+      "k": 2,
+      "inertia": 222.361704965023,
+      "silhouette": 0.5817500491982808,
+      "calinski_harabasz": 251.34933946458113,
+      "davies_bouldin": 0.5933126905762434
+    },
+    {
+      "k": 3,
+      "inertia": 139.82049635974974,
+      "silhouette": 0.45994823920518646,
+      "calinski_harabasz": 241.90440170183172,
+      "davies_bouldin": 0.8335949464754334
+    },
+    {
+      "k": 4,
+      "inertia": 114.09254690403084,
+      "silhouette": 0.38694104154427816,
+      "calinski_harabasz": 207.265914315697,
+      "davies_bouldin": 0.869814372318384
+    },
+    {
+      "k": 5,
+      "inertia": 90.92751382392049,
+      "silhouette": 0.3459012795948778,
+      "calinski_harabasz": 202.95152531739177,
+      "davies_bouldin": 0.9483171900518059
+    },
+    {
+      "k": 6,
+      "inertia": 81.54439095511778,
+      "silhouette": 0.3170794019356902,
+      "calinski_harabasz": 183.1091184274213,
+      "davies_bouldin": 1.0536773764650114
+    },
+    {
+      "k": 7,
+      "inertia": 72.63114382667185,
+      "silhouette": 0.3201967939183684,
+      "calinski_harabasz": 173.0519041362259,
+      "davies_bouldin": 0.9905275134856438
+    },
+    {
+      "k": 8,
+      "inertia": 62.54060569578121,
+      "silhouette": 0.3386917389489723,
+      "calinski_harabasz": 174.3307022970503,
+      "davies_bouldin": 0.9149823076520467
+    },
+    {
+      "k": 9,
+      "inertia": 55.119492805290584,
+      "silhouette": 0.3423598384813203,
+      "calinski_harabasz": 174.23090181963667,
+      "davies_bouldin": 0.9031522999135669
+    },
+    {
+      "k": 10,
+      "inertia": 47.391035176347074,
+      "silhouette": 0.35179267606402886,
+      "calinski_harabasz": 181.38745905898085,
+      "davies_bouldin": 0.8748252296683054
+    }
+  ]
+}
